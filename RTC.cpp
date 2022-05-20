@@ -8,8 +8,6 @@ RTC_DS3231 rtc;
 
 // Start Time
 void RTCStart() {
-  // Start RTC
-  if (! rtc.begin()) {
     abort();
   }
 
